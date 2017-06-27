@@ -60,7 +60,7 @@ ENSEMBL_RELEASE=89
 ## Sapiens
 STRIP_PATCHES=1
 STRIP_PATCHES_SCRIPT=./rnaseq_workflow/strip_patches.pl
-STRIP_PATCHES_OPTIONS=--valid-chr='^(?:chr)?[12]?\d|MT|[XY]$'
+STRIP_PATCHES_OPTIONS=--valid-chr='^(?:chr)?[12]?\d|MT|[XY]$$'
 
 # Options for cufflinks; --max-bundle-frags avoids HIDATA errors
 # CUFFLINKS_OPTIONS=--max-bundle-frags=400000000
