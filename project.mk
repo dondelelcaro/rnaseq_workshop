@@ -22,6 +22,8 @@ FASTQ_FILES=SRR980481_1.fastq.gz SRR980481_2.fastq.gz
 
 # Everything else below is optional
 
+TRIMMOMATIC_OPTIONS=ILLUMINACLIP:./illumina_truseq_adapter.fa:2:20:10
+
 ## The species that this data is
 SPECIES=homo_sapiens
 ## The species to align it to; usually the same as $(SPECIES)
